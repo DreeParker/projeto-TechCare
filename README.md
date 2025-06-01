@@ -18,11 +18,11 @@ em Salesforce. A empresa solicita os seguintes requisitos no referido portal de 
 
 Abra o prompt de comando e digite o seguinte código para clonar o repositório git
 ```bash
-git clone https://github.com/.git
+git clone https://github.com/DreeParker/projeto-TechCare.git
 ```
 Navegue até o novo diretório
 ```bash
-cd build-apps-with-lwc
+cd TechCare
 ```
 
 Autorize sua org com o Salesforce CLI, salve com um alias "projectTechCare" e defina o usuário atual como usuário padrão
