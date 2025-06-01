@@ -18,11 +18,11 @@ em Salesforce. A empresa solicita os seguintes requisitos no referido portal de 
 
 Abra o prompt de comando e digite o seguinte código para clonar o repositório git
 ```bash
-git clone https://github.com/.git
+git clone https://github.com/DreeParker/projeto-TechCare.git
 ```
 Navegue até o novo diretório
 ```bash
-cd build-apps-with-lwc
+cd TechCare
 ```
 
 Autorize sua org com o Salesforce CLI, salve com um alias "projectTechCare" e defina o usuário atual como usuário padrão
@@ -376,7 +376,7 @@ Todos os painéis citados abaixo se encontram disponíveis na aba Dashboards, pa
 * Reopen Case Button (reopenCaseButton): Um botão LWC que quando é apertado, altera o status do caso para In Progress reinicia a contagem do SLA baseado no tipo do registro e dia atual.
 
 
-> Os códigos estão disponíveis para consulta no repositório
+> Os códigos estão disponíveis para consulta no caminho force-app/main/default/lwc no repositório
 
 
 
@@ -424,7 +424,7 @@ __- Time_Closed__c (Date/Time):__
 
 * __restResourceCaseHistoryTest (Classe Teste)__: Trata-se de uma classe de testes, destinada a testar a funcionalidade e a qualidade do código da classe restResource.
 
-> Os códigos das classes acima estão disponíveis para consulta no repositório
+> Os códigos das classes acima estão disponíveis para consulta no caminho force-app/main/default/classes e force-app/main/default/triggers do repositório
 
 
 # Instruções para testes do App:
