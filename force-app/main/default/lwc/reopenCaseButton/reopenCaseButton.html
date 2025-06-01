@@ -1,0 +1,15 @@
+<template>
+    <lightning-button 
+        label="Reopen Case" 
+        onclick={handleReopenCase}>
+    </lightning-button>
+    
+    <template if:true={successMessage}>
+        <p>{successMessage}</p>
+    </template>
+
+    <template if:true={errorMessage}>
+        <p>{errorMessage}</p>
+    </template>
+
+</template>
