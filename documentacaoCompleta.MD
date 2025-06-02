@@ -48,7 +48,7 @@ sf project deploy start -d force-app/main/default
 
  - O retângulo azul refere-se aos botões com algumas ações disponíveis para serem realizadas nos casos, New (abrir um caso novo), Import (importar dados), Change Owner (mudar o dono do caso). Um pouco abaixo do botão há também algumas ferramentas de edição da lista de visualização atual, barra de pesquisa, botão de atualização, entre outros.
 
-<img src="apresentacaoApp.png" alt="Tela Inicial App" />
+<img src="imagens/apresentacaoApp.png" alt="Tela Inicial App" />
 
 
 ## - Perfis:
