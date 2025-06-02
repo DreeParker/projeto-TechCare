@@ -335,7 +335,7 @@ Também temos o Chatter para registrar atualizações do caso e facilitar detalh
 
 * __Case Request - Closed Case:__ Trata-se de um fluxo de tela que é chamado toda vez que o usuário clica no botão "Close Case", o mesmo disponibiliza uma caixa de texto na tela para que o usuário preencha o campo Resolution_Notes__c (notas de resolução), após isso o flow atualiza o Status para "Closed (Fechado)", insere a data atual no campo Close_Date__c (Data de fechamento)", desmarca a caixa de seleção Reopen_by_Process__c, e seleciona a caixa de seleção Closed_by_Process__c, para que a Validation Rule não barre a atualização do registro.
 
-< src="imagens/flowClosedCase.png" alt="Closed Case Flow" />
+< img src="imagens/flowClosedCase.png" alt="Closed Case Flow" />
 
 
 ## 1.6 - Reports
@@ -345,17 +345,17 @@ Todos os relatórios citados abaixo se encontram disponíveis na aba Reports, pa
 
 * Case Request - Resolution Time Average: Relatório que mostra a média de resolução de casos por tipo. 
 
-< src="imagens/reportResolution.png" alt="Report Resolution Average" />
+< img src="imagens/reportResolution.png" alt="Report Resolution Average" />
 
 
 * Open VS Closed Cases: Relatório que mostra os casos abertos contra os casos fechados nos últimos 7 dias.
 
-< src="imagens/reportOpenVsClosed.png" alt="Report Open VS Closed Case" />
+< img src="imagens/reportOpenVsClosed.png" alt="Report Open VS Closed Case" />
 
 
 * Opened Cases by Priority and Status: Relatório que mostra os casos abertos por prioridade e status
 
-< src="imagens/reportOpenedCases.png" alt="Report Opened Cases by Priority" />
+< img src="imagens/reportOpenedCases.png" alt="Report Opened Cases by Priority" />
 
 
 ## 1.7 - Dashboards
