@@ -48,7 +48,7 @@ sf project deploy start -d force-app/main/default
 
  - O retângulo azul refere-se aos botões com algumas ações disponíveis para serem realizadas nos casos, New (abrir um caso novo), Import (importar dados), Change Owner (mudar o dono do caso). Um pouco abaixo do botão há também algumas ferramentas de edição da lista de visualização atual, barra de pesquisa, botão de atualização, entre outros.
 
-<img src="imagens/apresentacaoApp.png" alt="Tela Inicial App" />
+< src="imagens/apresentacaoApp.png" alt="Tela Inicial App" />
 
 
 ## - Perfis:
@@ -283,7 +283,7 @@ Abaixo temos um descritivo com imagens do layout da página Premium:
 
 * Premium:
 
-<img src="premium1.png" alt="Layout Premium Inicio" />
+< src="imagens/premium1.png" alt="Layout Premium Inicio" />
 
 
 Parte Superior da tela: 
@@ -305,7 +305,7 @@ __SLA Deadline:__ Visível somente para administradores e usuários com o perfil
 __Open Days:__ Visível somente quando o caso esta aberto.
 
 
-<img src="premium2.png" alt="Layout Premium Inicio" />
+< src="premium2.png" alt="Layout Premium Inicio" />
 
 
 __Has Workaround?:__ Visível somente quando o caso esta com status Escalated.
@@ -320,22 +320,22 @@ Também temos o Chatter para registrar atualizações do caso e facilitar detalh
 * __Case Request - SLA Calculator:__ É iniciado toda vez que um registro no objeto Case_Request__c é criado, o flow avalia o recordType do registro e atualiza o campo SLA_Deadline__c (8 hrs para Premium / 24hrs para Standard), após a atualização, o flow chama o subflow Case Request - Assignment Rule.
 
 
-<img src="flowSLA.png" alt="SLA Calculator Flow" />
+< src="imagens/flowSLA.png" alt="SLA Calculator Flow" />
 
 
 * __Case Request - Escalate Case:__ Trata-se de um fluxo de tela que é chamado toda vez que o usuário clica no botão "Escalate Case", o mesmo disponibiliza uma caixa de texto na tela para que o usuário preencha com o motivo da escalação, após isso o flow atualiza a prioridade para "High (Alta)", o Status para "Escalated (Escalado)", designa o caso para a fila de "High Priority Cases (Casos de alta prioridade)", e seleciona a caixa de seleção Escalated_Case__c, para que a Validation Rule não barre a atualização do registro. O motivo da escalação é registrado no Chatter.
 
-<img src="flowEscalateCase.png" alt="Escalate Case Flow" />
+< src="imagens/flowEscalateCase.png" alt="Escalate Case Flow" />
 
 
 * __Case Request - Assignment Rule:__ Trata-se de um flow autolauched chamado a partir do flow Case Request - SLA Calculator. Este flow identifica o recordType do caso em questão e o envia para a fila correta, após isso o mesmo envia uma mensagem ao Chatter do caso para indicar que o registro foi movido automaticamente.
 
-<img src="flowAssigmentRule.png" alt="Assigment Rule Flow" />
+< src="imagens/flowAssigmentRule.png" alt="Assigment Rule Flow" />
 
 
 * __Case Request - Closed Case:__ Trata-se de um fluxo de tela que é chamado toda vez que o usuário clica no botão "Close Case", o mesmo disponibiliza uma caixa de texto na tela para que o usuário preencha o campo Resolution_Notes__c (notas de resolução), após isso o flow atualiza o Status para "Closed (Fechado)", insere a data atual no campo Close_Date__c (Data de fechamento)", desmarca a caixa de seleção Reopen_by_Process__c, e seleciona a caixa de seleção Closed_by_Process__c, para que a Validation Rule não barre a atualização do registro.
 
-<img src="flowClosedCase.png" alt="Closed Case Flow" />
+< src="imagens/flowClosedCase.png" alt="Closed Case Flow" />
 
 
 ## 1.6 - Reports
@@ -345,17 +345,17 @@ Todos os relatórios citados abaixo se encontram disponíveis na aba Reports, pa
 
 * Case Request - Resolution Time Average: Relatório que mostra a média de resolução de casos por tipo. 
 
-<img src="reportResolution.png" alt="Report Resolution Average" />
+< src="imagens/reportResolution.png" alt="Report Resolution Average" />
 
 
 * Open VS Closed Cases: Relatório que mostra os casos abertos contra os casos fechados nos últimos 7 dias.
 
-<img src="reportOpenVsClosed.png" alt="Report Open VS Closed Case" />
+< src="imagens/reportOpenVsClosed.png" alt="Report Open VS Closed Case" />
 
 
 * Opened Cases by Priority and Status: Relatório que mostra os casos abertos por prioridade e status
 
-<img src="reportOpenedCases.png" alt="Report Opened Cases by Priority" />
+< src="imagens/reportOpenedCases.png" alt="Report Opened Cases by Priority" />
 
 
 ## 1.7 - Dashboards
@@ -365,7 +365,7 @@ Todos os painéis citados abaixo se encontram disponíveis na aba Dashboards, pa
 
 * Cases Graphics: Esse painel mostra o gráfico de casos aberto vs casos fechados nos últimos 7 dias, e o gráfico da média de resolução de casos.
 
-<img src="caseDash.png" alt="Cases Dashboard" />
+< src="imagens/caseDash.png" alt="Cases Dashboard" />
 
 
 ## 1.8 - Componentes LWC
