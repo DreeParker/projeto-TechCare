@@ -92,6 +92,8 @@ __2 - Case_History__c__
 
 ## 1.1 - Descrição:
 
+<img src="imagens/caseRequest.png" alt="Case Request" />
+
   - Este objeto tem como objetivo registrar casos abertos a partir de algum problema reportado por usuários da TechCare, e fornecer ao suporte uma interface amigável que concede agilidade no acesso a informação de tal problema, e na resolução do mesmo.
 
 ## 1.2 - Campos:
@@ -386,6 +388,10 @@ Todos os painéis citados abaixo se encontram disponíveis na aba Dashboards, pa
 
   - Este objeto tem como objetivo registrar dados importantes sobre a historia do caso, fornecendo informações referentes a qualidade e agilidade no atendimento.
 
+
+<img src="imagens/caseHistory.png" alt="Case History" />
+
+
 ## 2.2 - Campos: 
 
 __- Case__c (Master-Detail Case Request):__
@@ -421,6 +427,10 @@ __- Time_Closed__c (Date/Time):__
 * __ClosedCaseRequestHandlerTest (Classe Teste)__: Trata-se de uma classe de testes, destinada a testar a funcionalidade e a qualidade do código da classe handler e do trigger
 
 * __restResourceCaseHistory (Classe)__: Trata-se de uma classe de integração exposta como um serviço web, disponibilizando para alguma API externa informações para consulta dos campos Status__c do Case_Request__c, e SLA_Met__c do Case_History__c
+
+
+<img src="imagens/workbenchRestResource.png" alt="Serviço Web em funcionamento" />
+
 
 * __restResourceCaseHistoryTest (Classe Teste)__: Trata-se de uma classe de testes, destinada a testar a funcionalidade e a qualidade do código da classe restResource.
 
